@@ -69,7 +69,7 @@ Este projeto é uma aplicação Java desenvolvida com Spring Boot, utilizando JP
 - *Java 17*
 - *Spring Boot*
 - *Jakarta Persistence API (JPA)*
-- *Banco de Dados Relacional (configuração do banco de dados depende do ambiente do projeto)*
+- *Banco de Dados Relacional (H2)*
 
 ## Instalação e Configuração
 
