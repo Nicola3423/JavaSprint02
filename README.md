@@ -1,4 +1,4 @@
-# Projeto CP01 - Gerenciamento de Pacientes
+# Projeto CP02 - Gerenciamento de Pacientes
 
 ## Integrantes do Grupo
 
