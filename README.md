@@ -2,9 +2,9 @@
 
 ## Integrantes do Grupo
 
-*Nicola Monte Cravo Garofalo* - responsável pelo código fonte.
-*Igor Akira Bortolini Tateishi* - responsável pelo código fonte.
-*Willyam Santos Sousa* - responsável pelo documento
+*Nicola Monte Cravo Garofalo - responsável pelo código fonte.*
+*Igor Akira Bortolini Tateishi - responsável pelo código fonte.*
+*Willyam Santos Sousa - responsável pelo documento.*
 
 ## Requisitos do Software
  
