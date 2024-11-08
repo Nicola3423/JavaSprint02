@@ -71,6 +71,43 @@ Este projeto é uma aplicação Java desenvolvida com Spring Boot, utilizando JP
 - *Jakarta Persistence API (JPA)*
 - *Banco de Dados Relacional (H2)*
 
+## Requsições
+Tratamento:
+  GET /tratamento/{id}: Obtém um tratamento específico pelo ID.
+  PUT /tratamento/{id}: Atualiza as informações de um tratamento específico pelo ID.
+  DELETE /tratamento/{id}: Exclui um tratamento específico pelo ID.
+  GET /tratamento: Lista todos os tratamentos.
+  POST /tratamento: Cria um novo tratamento.
+  GET /tratamento/paciente/{pacienteId}: Obtém os tratamentos associados a um paciente específico pelo ID do paciente.
+Sintoma:
+  GET /sintoma/{id}: Obtém um sintoma específico pelo ID.
+  PUT /sintoma/{id}: Atualiza as informações de um sintoma específico pelo ID.
+  DELETE /sintoma/{id}: Exclui um sintoma específico pelo ID.
+  GET /sintoma: Lista todos os sintomas.
+  POST /sintoma: Cria um novo sintoma.
+Paciente:
+  GET /paciente/{id}: Obtém um paciente específico pelo ID.
+  PUT /paciente/{id}: Atualiza as informações de um paciente específico pelo ID.
+  DELETE /paciente/{id}: Exclui um paciente específico pelo ID.
+  GET /paciente: Lista todos os pacientes.
+  POST /paciente: Cria um novo paciente.
+Medico:
+  POST /medico: Cria um novo médico.
+  GET /medico/{id}: Obtém um médico específico pelo ID.
+  GET /medico: Lista todos os médicos com paginação.
+  PUT /medico/{id}: Atualiza as informações de um médico específico pelo ID.
+  DELETE /medico/{id}: Exclui um médico específico pelo ID.
+  GET /medico/medico/{pacienteId}: Obtém os médicos associados a um paciente específico pelo ID do paciente.
+Feedback:
+  POST /feedback: Cria um novo feedback.
+  GET /feedback/{id}: Obtém um feedback específico pelo ID.
+  GET /feedback: Lista todos os feedbacks com paginação.
+  PUT /feedback/{id}: Atualiza as informações de um feedback específico pelo ID.  
+  DELETE /feedback/{id}: Exclui um feedback específico pelo ID.
+  GET /feedback/paciente/{pacienteId}: Obtém todos os feedbacks associados a um paciente específico pelo ID do paciente.
+  GET /feedback/data?data={data}: Obtém feedbacks por data específica (formato ISO: YYYY-MM-DD).
+  GET /feedback/nota?nota={nota}: Obtém feedbacks pela nota (nota de 1 a 10).
+  
 ## Instalação e Configuração
 
 1. Clone o repositório:
